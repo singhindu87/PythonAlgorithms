@@ -3,6 +3,8 @@
 # In the each pass, between each adjacent element, the max element goes to the end
 # loop 1- i element through all n elements
 # loop 2 - j element will starts from second last element, till ith element, with increments of -1 (travesing from right(max) to left(min)
+# Time Complexity: O(n2)
+# Auxiliary Space: O(1)
 
 def bubblesort(arr):
   n=len(arr)
