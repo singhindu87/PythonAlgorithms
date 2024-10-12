@@ -1,6 +1,8 @@
 #Selection Sort
 # It is comparison-based sorting algorithm
 # It sorts array by selecting smallest (or largest) element from unsorted portion and swapping it with first unsorted element
+# Time Complexity: O(n2)
+# Auxiliary Space: O(1)
 
 def selectionsort(arr):
   min_idx=0
